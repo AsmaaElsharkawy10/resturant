@@ -1,0 +1,101 @@
+@import "shop.css";
+
+.contact_form h2 {
+  text-align: center;
+  font-family: var(--special-font--);
+  color: var(--white-color--);
+  text-transform: uppercase;
+  margin-block: 2em;
+  font-size: 3em;
+}
+
+form {
+  background-color: #2d2d2d;
+  width: 90%;
+  margin: auto;
+  padding: 4em 2em;
+  border-radius: 1em;
+}
+
+.inputs {
+  display: flex;
+  gap: 1.5em;
+}
+.inputs > div {
+  width: calc((100% - 3em) / 3);
+  position: relative;
+  overflow: hidden;
+  height: 3.5em;
+}
+.inputs > div > i {
+  position: absolute;
+  top: 39%;
+  color: var(--red-color--);
+  right: 1em;
+}
+
+.inputs > div > input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--white-color--);
+  border-radius: 1em;
+  padding-inline: 1em;
+  outline: none;
+  background-color: transparent;
+}
+
+.inputs > div > input:focus {
+  border: 3px solid var(--red-color--);
+}
+
+.textarea {
+  width: 100%;
+  position: relative;
+}
+
+.textarea > i {
+  position: absolute;
+  color: var(--red-color--);
+  top: 19%;
+  right: 1em;
+}
+.textarea textarea {
+  width: 100%;
+  height: 235px;
+  background-color: transparent;
+  border: none;
+  outline: 1px solid var(--white-color--);
+  border-radius: 1em;
+  margin-block: 2em;
+  padding: 2em;
+}
+textarea:focus {
+  outline: 3px solid var(--red-color--);
+}
+
+.send_message {
+  padding: 1em 2.1em;
+  background-color: transparent;
+  border: 1px solid var(--white-color--);
+  border-radius: 1em;
+  color: var(--white-color--);
+  font-size: 1.25em;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.send_message:hover {
+  background-color: var(--red-color--);
+}
+
+@media only screen and (max-width: 800px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .inputs > div {
+    width: 100%;
+  }
+  form {
+    text-align: center;
+  }
+}

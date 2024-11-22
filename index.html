@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food e-commerce</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <div class="hero_section upperCase">
+        <div class="layout"></div>
+
+        <!-- start toggled nav -->
+        <div class="toggled_nav container">
+          <div class="nav_head container">
+            <div class="toggled_nav_logo">
+              <img src="./assets/images/logo.png" alt="logo" />
+            </div>
+            <div class="close_icon"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+
+          <div class="nav_body">
+            <ul>
+              <li><a href="index.html" class="active_link">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="./html/shop.html">Shop</a></li>
+              <li><a href="./html/contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End of toggled nav -->
+
+        <!-- start main nav -->
+        <nav>
+          <div class="toggle"><i class="fa-solid fa-bars"></i></div>
+
+          <div class="logo">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </div>
+          <ul class="nav_links">
+            <li><a href="index.html" class="active_link">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./html/shop.html">Shop</a></li>
+            <li><a href="./html/contact.html">Contact</a></li>
+          </ul>
+          <div class="nav_icons">
+            <div class="heart_icon">
+              <i class="fa-solid fa-heart"></i>
+              <span class="fav_num"></span>
+            </div>
+            <div class="cart_icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="items_num"></span>
+            </div>
+          </div>
+        </nav>
+
+        <!-- start main nav -->
+
+        <!-- start hero section -->
+        <div class="hero_discription">
+          <h1>Crafting your Exceptional Dining Reservations</h1>
+          <p>
+            Reservation is a step into a world of gastronomic wonder. Reserve
+            your table today and let us paint your culinary dreams into reality.
+          </p>
+          <button><a href="./html/shop.html">Explore Products</a></button>
+        </div>
+        <!-- start hero section -->
+      </div>
+    </header>
+
+    <!-- start slider section -->
+    <section class="slider_section container swiper">
+      <div class="cards swiper-wrapper">
+       
+
+        <!-- cards end tag -->
+      </div>
+
+      <!-- If we need navigation buttons -->
+       <div class="swiper_controls">
+        <div class="swiper_btns">
+          <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+       </div>
+      
+    
+      </div>
+    </section>
+    <!-- end slider section -->
+
+    <!-- video section -->
+    <section class="container">
+      <div class="about_video">
+        <div class="video_layout">
+          <div class="video_play">Play</div>
+        </div>
+        <div class="video_container">
+          <video src="./assets/videos/duaa.mp4" controls poster="./assets/images/e9e46d6503b1af4251a66afb588478fb.jfif"></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- end video section -->
+
+    <footer>
+      <p>©2024 <span>Joe Programming Channel.</span> All rights reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

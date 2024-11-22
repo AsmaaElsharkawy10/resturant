@@ -1,0 +1,140 @@
+@import "style.css";
+
+header {
+  background-image: url(../assets/images/e9e46d6503b1af4251a66afb588478fb.jfif);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.header_layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header_title {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_title h2 {
+  color: var(--white-color--);
+  font-weight: 500;
+}
+
+.category_title h2 {
+  text-align: center;
+  color: var(--white-color--);
+  margin-block: 2em;
+  font-size: 3em;
+  font-family: var(--special-font--);
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-block: 3em;
+}
+
+.categories > .category {
+  width: 15%;
+  height: 220px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+.categories > .category[active] {
+  border: 4px solid var(--red-color--);
+  padding: 0.4em;
+  border-radius: 50%;
+}
+
+.categories > .category:not(.category[active]) {
+  border: 4px solid var(--white-color--);
+  padding: 0.4em;
+  border-radius: 50%;
+}
+.categories > .category .category_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.categories > .category .category_img > .img_layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.categories > .category .category_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.category h3 {
+  color: var(--white-color--);
+  font-weight: 600;
+  font-size: 1.25em;
+}
+.cards {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding-inline: 2em;
+  margin-block: 5em;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+@keyframes scale {
+  0% {
+    transform: rotateY(90deg);
+    transform-origin: center;
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.cards .card {
+  flex: 0 1 calc(33.333% - 4em);
+  /* flex-basis: ; */
+  animation: scale 1.5s;
+}
+
+@media only screen and (max-width: 1270px) {
+  .categories > .category {
+    width: 19%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .cards .card {
+    flex: 0 1 calc(48.333% - 2em);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .cards .card {
+    flex: 0 1 calc(100%);
+  }
+  .cards .card > .card_img {
+    height: 280px;
+  }
+  .categories {
+    flex-wrap: wrap;
+  }
+  .categories > .category {
+    width: 38%;
+  }
+}

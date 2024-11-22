@@ -1,0 +1,270 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Beef",
+      "slug": "beef",
+      "image": "https://img.freepik.com/free-photo/grilled-steak-with-salt-herbs-grilled-tomato-served-wooden-board_140725-5840.jpg?t=st=1732124835~exp=1732128435~hmac=c8d54d73d6abd731915e4cf5219243de3e08aa5bb620900e94891d97c59fd109&w=740"
+    },
+    {
+      "id": 1,
+      "title": "Vegetarian",
+      "slug": "vegetarian",
+      "image": "https://img.freepik.com/free-photo/mixed-salad-served-with-various-vegetables_140725-1183.jpg?t=st=1732122733~exp=1732126333~hmac=b1a5cefbceebeabeac5e7f9b049af3d5f6d4a27dda686943b53b93e387a076d8&w=740"
+    },
+    {
+      "id": 1,
+      "title": "Chicken",
+      "slug": "chicken",
+      "image": "https://img.freepik.com/free-photo/top-view-thanksgiving-roasted-chicken-plate-with-cutlery_23-2148638941.jpg?t=st=1732122659~exp=1732126259~hmac=e628296dfeff489c98b25670ecd9a0ed5647710ae8302557c0c1b24bcf0900a4&w=826"
+    },
+    {
+      "id": 1,
+      "title": "Desserts",
+      "slug": "desserts",
+      "image": "https://img.freepik.com/free-photo/pumpkin-cheesecake-slice-delicious-desserts_1268-27893.jpg?t=st=1732124738~exp=1732128338~hmac=0d0b7010307a69cee694a636c667b3129f400704a851ed61a73363cdd7eb66c3&w=900"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Blueberry Cheese Cake",
+      "categorySlug": "desserts",
+      "price": 109.95,
+      "description": "Seasonal selections of fruits, shaved coconut, vanilla drizzle, mint",
+      "image": "https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Thai Donut ",
+      "categorySlug": "desserts",
+      "price": 22.3,
+      "description": "Fried donut dipped with sweet condense milk & peanut",
+      "image": "https://images.pexels.com/photos/3628508/pexels-photo-3628508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "salads",
+      "categorySlug": "vegetarian",
+      "price": 55.99,
+      "description": "Crunchy roasted almonds and creamy avocado.",
+      "image": "https://images.pexels.com/photos/1143754/pexels-photo-1143754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Sesame Chicken ",
+      "categorySlug": "chicken",
+      "price": 15.99,
+      "description": "Chinese eggplant, sweet chili soy glaze, green onion, pineapple, ginger",
+      "image": "https://images.pexels.com/photos/14853728/pexels-photo-14853728.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "Chicken Wings",
+      "categorySlug": "chicken",
+      "price": 695,
+      "description": "Thai basil, chili, peanuts, green papaya, cilantro",
+      "image": "https://images.pexels.com/photos/10361458/pexels-photo-10361458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Black Pepper Chili Chicken ",
+      "categorySlug": "chicken",
+      "price": 168,
+      "description": "Pepper, onion, bamboo shoot, celery",
+      "image": "https://images.pexels.com/photos/7290308/pexels-photo-7290308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "Coconut Chicken Tenders",
+      "categorySlug": "chicken",
+      "price": 9.99,
+      "description": "Intense floral aroma and delicate fruity taste without any bitterness or dryness",
+      "image": "https://images.pexels.com/photos/16261532/pexels-photo-16261532/free-photo-of-woman-hands-holding-meat-with-sauce.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Ribeye Bites Roasted",
+      "categorySlug": "chicken",
+      "price": 10.99,
+      "description": "Shishito Peppers, Jalapeño Crème",
+      "image": "https://images.pexels.com/photos/16845752/pexels-photo-16845752/free-photo-of-sandwiches-with-sauces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Banana spring rolls",
+      "categorySlug": "desserts",
+      "price": 64,
+      "description": "Honey glaze, vanilla drizzle, coconut-pineapple ice cream",
+      "image": "https://images.pexels.com/photos/11845938/pexels-photo-11845938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "Sorbet",
+      "categorySlug": "desserts",
+      "price": 109,
+      "description": "Watermelon, passion fruit, strawberry, mango, orange",
+      "image": "https://images.pexels.com/photos/8112930/pexels-photo-8112930.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "Cookies N Cream Cupcake",
+      "categorySlug": "desserts",
+      "price": 109,
+      "description": " Vanilla cake with Oreo crushed, Based with Oreo piece Icing Cream Cheese Mixed with Oreo crushed Oreo Piece On The Top.",
+      "image": "https://d1l6fcuu6fcorr.cloudfront.net/photos/menu_items/photo_urls/d5fce4d3-f3dd-404b-b883-130b42e20cb8/original/IMG-20220728-WA0086_1080x_auto_none",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "Spaghetti Squash with Marinara and Parmesan",
+      "categorySlug": "vegetarian",
+      "price": 114,
+      "description": "Spaghetti squash, which is high in vitamins and nutritional value and low in carbs and calories.",
+      "image": "https://images.pexels.com/photos/14930762/pexels-photo-14930762.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "Vegan Zuppa Toscana",
+      "categorySlug": "vegetarian",
+      "price": 599,
+      "description": "This Vegan Zuppa Toscana recipe is a delicious vegan version of the most popular soup served at the Olive Garden restaurant in the U.S. The fragrant herbs and spices will have you salivating in no time.",
+      "image": "https://www.3ho.org/wp-content/uploads/2022/07/Capture.png",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "The Best Tofu Scramble",
+      "categorySlug": "vegetarian",
+      "price": 999.99,
+      "description": "It’s the combination of the silken and firm tofu that gives it a creamy scrambled tofu texture.",
+      "image": "https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "Grilled Mushroom Steaks with Polenta",
+      "categorySlug": "vegetarian",
+      "price": 56.99,
+      "description": "This is a wonderful, incredibly satisfying dish. The balsamic dressing gives the grilled Portobello mushroom its slightly sweet, deeply rich flavor.",
+      "image": "https://images.pexels.com/photos/765081/pexels-photo-765081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Steak & ruby gem salad",
+      "categorySlug": "beef",
+      "price": 29.95,
+      "description": "A steak meal always feels special, and this salad sings with flavour. You could also cook the meat on the barbecue.",
+      "image": "https://waitrose-prod.scene7.com/is/image/waitroseprod/steak-ruby-gem-salad?uuid=acb3c4c9-4002-4831-b7be-7c0e59da4985&$Waitrose-Default-Image-Preset$&wid=1500&fit=constrain%2C0",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Smash beef burgers with sriracha cheese melts",
+      "categorySlug": "beef",
+      "price": 39.99,
+      "description": "Topped with a melting round of spicy cheese and stuffed into new seeded brioche buns, these are as good as any dirty burger you’ll find. For the ultimate stack, add in some pickled gherkins and burger sauce too. ",
+      "image": "https://waitrose-prod.scene7.com/is/image/waitroseprod/smash-beef-burgers-with-sriracha-cheese-melts?uuid=84ddbc29-d91e-4896-ab33-e6fb1cc058e0&$Waitrose-Default-Image-Preset$&wid=1500&fit=constrain%2C0",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "T-bone steak",
+      "categorySlug": "beef",
+      "price": 9.85,
+      "description": "Cooking on the bone makes this steak extra succulent. Serve simply with fries and dressed salad leaves for a special sharing dinner for two.",
+      "image": "https://waitrose-prod.scene7.com/is/image/waitroseprod/Tbone-Steak?uuid=2de95135-2c51-4fd9-b9b8-12d83cdb7edb&$Waitrose-Default-Image-Preset$&wid=1500&fit=constrain%2C0",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Sticky date & soy beef stew",
+      "categorySlug": "beef",
+      "price": 7.95,
+      "description": "A rich and aromatic stew that’s just right for colder nights. Serve with wasabi-spiked mashed potato or sticky rice plus steamed greens.",
+      "image": "https://waitrose-prod.scene7.com/is/image/waitroseprod/sticky-date-soy-beef-stew?uuid=3e657da2-7e0a-46ff-9380-3e6391c29ee5&$Waitrose-Default-Image-Preset$&wid=1500&fit=constrain%2C0",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "Steak on sourdough with garlicky tomatoes",
+      "categorySlug": "beef",
+      "price": 12.99,
+      "description": "Switch up how you serve steak with these crunchy, bruschetta-style toasts topped with griddled mediterranean vegetables, cannellini beans and tender slices of barbecued British beef bavette.  ",
+      "image": "https://waitrose-prod.scene7.com/is/image/waitroseprod/steak-on-sourdough-with-garlicky-tomatoes?uuid=d55f5bee-231e-41bf-8baa-109f9fc57dbd&$Waitrose-Default-Image-Preset$&wid=1500&fit=constrain%2C0",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ]
+}

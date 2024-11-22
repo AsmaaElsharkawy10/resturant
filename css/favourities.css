@@ -1,0 +1,23 @@
+@import "style.css";
+@import "shop.css";
+@import "cart.css";
+
+.empty_cart
+{
+    margin-top: 2em;
+}
+
+.card
+{
+    animation: none;
+}
+
+.favourities_container .fav_icon
+{
+    background-color: var(--red-color--);
+
+}
+.favourities_container .fav_icon>i
+{
+    color: var(--white-color--);
+}

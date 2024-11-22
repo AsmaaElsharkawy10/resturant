@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
+    <!-- start  header -->
+    <header>
+      <div class="header_layer">
+        <!-- start toggled nav -->
+        <div class="toggled_nav container">
+          <div class="nav_head container">
+            <div class="toggled_nav_logo">
+              <img src="../assets/images/logo.png" alt="logo" />
+            </div>
+            <div class="close_icon"><i class="fa-solid fa-xmark"></i></div>
+          </div>
+
+          <div class="nav_body">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="contact.html" class="active_link">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- End of toggled nav -->
+
+        <!-- start main nav -->
+        <nav>
+          <div class="toggle"><i class="fa-solid fa-bars"></i></div>
+
+          <div class="logo">
+            <img src="../assets/images/logo.png" alt="logo" />
+          </div>
+          <ul class="nav_links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html" class="active_link">Contact</a></li>
+          </ul>
+          <div class="nav_icons">
+            <div class="heart_icon">
+              <i class="fa-solid fa-heart"></i>
+              <span class="fav_num">0</span>
+            </div>
+            <div class="cart_icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="items_num">0</span>
+            </div>
+          </div>
+        </nav>
+        <!-- end main nav -->
+        <div class="header_title">
+          <h2>Home - Contact</h2>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+
+    <!-- start Form -->
+
+    <section class="contact_form">
+      <h2>Send us messages</h2>
+      <form>
+        <div class="inputs">
+          <div class="name_input">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Enter Name" />
+          </div>
+
+          <div class="phone_input">
+            <i class="fa-solid fa-phone"></i>
+            <input type="text" placeholder="+20 104467808" />
+          </div>
+
+          <div class="subject_input">
+            <i class="fa-solid fa-tag"></i>
+            <input type="text" placeholder=" Subject" />
+          </div>
+        </div>
+
+        <div class="textarea">
+          <i class="fa-solid fa-comment"></i>
+          <textarea placeholder="Message"></textarea>
+        </div>
+
+        <button class="send_message">Send messages</button>
+      </form>
+      <!-- end Form -->
+    </section>
+
+    <footer>
+      <p>©2024 <span>Joe Programming Channel.</span> All rights reserved</p>
+    </footer>
+
+    <script src="../js/contact.js"></script>
+  </body>
+</html>
