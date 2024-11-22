@@ -10,6 +10,9 @@ let toggle_icon = document.querySelector(".fa-bars") ,
     ;
 
 
+   
+
+    
 //set cart icon num
 if(JSON.parse(localStorage.getItem("cart")))
 {
@@ -227,11 +230,11 @@ let favourities = JSON.parse(localStorage.getItem("favourities")) || [] ;
 
 
 // video play
-document.querySelector(".video_layout").addEventListener("click",function(){
+function hide() {
   document.querySelector("video").play()
   document.querySelector(".video_layout").classList.add("hide")
+}
 
-})
 
 
 
