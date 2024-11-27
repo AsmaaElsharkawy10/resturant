@@ -1,0 +1,87 @@
+@import "../css/shop.css";
+
+.about_sec
+{
+   display: flex;
+   padding: 4em;
+   min-height: 80vh;
+   margin-block: 4em;
+   gap: 2em;
+   align-items: center;
+}
+
+.about_img , .about_desc
+{
+     width: calc((100% - 2em)/2);
+     height: 100% ;
+
+}
+.about_img img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.about_desc
+{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: var(--white-color--);
+}
+.about_desc h3
+{
+    font-weight: 400;
+}
+.about_desc h2
+{
+    margin-top: 1em;
+    letter-spacing: 3px;
+}
+
+.about_desc p 
+{
+    margin-block: 2em;
+    line-height: 30px;
+    font-weight: 200;
+
+}
+.about_desc button
+{
+    background-color: var(--red-color--);
+     padding: 1em 4em;
+    border-radius: 1.625em;
+    font-size: 1.25em;
+    border: 4px solid rgba(255, 255, 255, 0.4);
+}
+.about_desc button a
+{
+    color: var(--white-color--);
+
+}
+
+footer
+{
+    padding: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .about_sec
+    {
+        flex-direction: column;
+    }
+    .about_img , .about_desc
+{
+     width: 100%;
+     height: 100%;
+}
+.about_desc
+{
+    padding-block: 2em;
+}
+}

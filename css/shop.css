@@ -112,6 +112,7 @@ header {
   flex: 0 1 calc(33.333% - 4em);
   /* flex-basis: ; */
   animation: scale 1.5s;
+  
 }
 
 @media only screen and (max-width: 1270px) {

@@ -1,4 +1,8 @@
-let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let toggle_icon = document.querySelector(".fa-bars") ,
+    toggled_nav = document.querySelector(".toggled_nav"),
+    close_nav_icon = document.querySelector(".fa-xmark"),
+    main_nav = document.querySelector("nav ul"),
+cart = JSON.parse(localStorage.getItem("cart")) || [];
 (cart_icon_num = document.querySelector(".items_num")),
   (cart_poducts_container = document.querySelector(".cart_products")),
   (cart_icon_fav = document.querySelector(".fav_num")),
@@ -137,3 +141,23 @@ document.querySelector(".heart_icon").addEventListener("click", () => {
 document.querySelector(".cart_icon").addEventListener("click", () => {
   window.location.href = `${location_origin}/html/cart.html`;
 });
+
+      //navbar
+      toggle_icon.addEventListener("click", () => {
+        toggled_nav.classList.add("active_nav");
+      });
+      
+      close_nav_icon.addEventListener("click", () => {
+        toggled_nav.classList.remove("active_nav");
+      });
+      
+      main_nav.addEventListener("click", function (e) {
+        if (e.target.classList.contains("active_link")) {
+          return;
+        } else {
+          links.forEach((ele) => {
+            ele.classList.remove("active_link");
+            e.target.classList.add("active_link");
+          });
+        }
+      });
