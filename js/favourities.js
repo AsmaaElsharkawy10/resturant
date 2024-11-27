@@ -115,3 +115,8 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [] ;
   cart_icon_fav.innerHTML = JSON.parse(localStorage.getItem("favourities")).length ;
    
 }
+
+
+function productDetails(id) {
+  window.location.href = `${location_origin}/html/productDetails.html?productId=${id}`;
+}

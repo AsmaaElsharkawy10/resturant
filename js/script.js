@@ -213,7 +213,8 @@ let favourities = JSON.parse(localStorage.getItem("favourities")) || [] ;
   if(favProduct === undefined)
   {
     favourities.push(productAddedToFavourites)
-
+     
+   
   
     
   }else
@@ -225,15 +226,20 @@ let favourities = JSON.parse(localStorage.getItem("favourities")) || [] ;
   }
   localStorage.setItem("favourities",JSON.stringify(favourities))
   cart_icon_fav.innerHTML = JSON.parse(localStorage.getItem("favourities")).length ;
+ 
+
    
 }
 
 
 // video play
 function hide() {
-  document.querySelector("video").play()
+  if (document.querySelector("video").paused) document.querySelector("video").play(); 
+  else document.querySelector("video").pause();
   document.querySelector(".video_layout").classList.add("hide")
 }
+
+
 
 
 
